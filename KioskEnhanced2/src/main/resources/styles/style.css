@@ -1,0 +1,92 @@
+#checkinButton
+{
+    -fx-background-color: green;    
+}
+
+#AnchorPane
+{
+}
+
+/*
+#AnchorPane-Registration
+{
+    -fx-background-image: url("../images/leftbg.png");
+    -fx-background-color: whitesmoke;
+    -fx-background-repeat: no-repeat;
+}
+*/
+/*
+#pane
+{
+    -fx-background-image: url("../images/leftbg.png");
+    -fx-background-color: whitesmoke;
+    -fx-background-repeat: no-repeat;
+}*/
+
+#previousScreen
+{   
+
+    -fx-graphic: url("../images/bb.png");
+    /* -fx-graphic: url("../images/bArrow.png");
+     -fx-graphic: url("../images/bArrow.png") */
+}
+#regis-button
+{
+    /*    -fx-graphic: url("../images/registration.png");*/
+    -fx-background-image: url("../images/registration.png");
+    -fx-background-size: 80px 80px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center; 
+
+}
+
+#appointments-button
+{
+    -fx-background-image: url("../images/appointment.png");
+    -fx-background-size: 64px 64px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center; 
+
+}
+
+#appointments-button:hover
+{
+    -fx-base: #AE3522;
+    -fx-text-fill: orange;
+}
+
+#pharmacy-button
+{
+    -fx-background-image: url("../images/pharmacy.png");
+    -fx-background-size: 80px 80px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center; 
+}
+
+#laboratory-button
+{
+    -fx-background-image: url("../images/laboratory.png");
+    -fx-background-size: 80px 80px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center; 
+
+}
+#feedback-button
+{
+    -fx-background-image: url("../images/feedback.png");
+    -fx-background-size: 80px 80px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center; 
+}
+
+.keypane
+{
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 15);
+}
+
+
+.numeric-button
+{
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 15); 
+}
+
